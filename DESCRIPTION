@@ -1,11 +1,15 @@
 Package: fars
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Summarizing and visualizing Fars data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Veerle van Leemput
+Maintainer: Veerle van Leemput <veerlevanleemput@live.nl>
+Description: This package will help reading Fars data and get some summarizing values out of it
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Imports: dplyr, readr, maps, graphics, tidyr
