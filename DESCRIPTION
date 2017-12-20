@@ -13,3 +13,4 @@ Suggests: knitr,
     testthat
 VignetteBuilder: knitr
 Imports: dplyr, readr, maps, graphics, tidyr
+RoxygenNote: 6.0.1
