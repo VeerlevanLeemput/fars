@@ -32,7 +32,7 @@ library(fars)
 
 ## Data included in the package
 
-There are three datasets included in the package. Sample data is available and can be obtained by the following code:
+There are three datasets included in the package. This data includes information on accidents of 2013, 2014 and 2015. Sample data is available and can be obtained by the following code:
 
 ```{r eval = FALSE, messages=FALSE}
 filepath1<-system.file("extdata", "accident_2013.csv.bz2", package = "fars")
