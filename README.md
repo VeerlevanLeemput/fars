@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/VeerlevanLeemput/fars.svg?branch=master)](https://travis-ci.org/VeerlevanLeemput/fars)
+
 # Project Title
 
 fars package for Coursera course
